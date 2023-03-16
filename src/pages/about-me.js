@@ -1,3 +1,4 @@
+import { NavHashLink } from 'react-router-hash-link';
 import image from '../images/chris.jpg'
 const About = () => {
     return (

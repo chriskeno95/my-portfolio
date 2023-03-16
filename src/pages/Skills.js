@@ -10,7 +10,7 @@ const Skills = ()=> {
         <div className="row text-center g-4">
           <div className="col-md-4">
             <div className="card">
-              <img src={ux} className="card-img-top" alt="" />
+              <img src={ux} className="card-img-top" alt="icon for ux" />
               <div className="card-body">
                 <p className="card-text">
                   UX design is a passion of mine as it is all about empathy and
@@ -24,7 +24,7 @@ const Skills = ()=> {
           </div>
           <div className="col-md-4">
             <div className="card">
-              <img src={ui} className="card-img-top" alt="" />
+              <img src={ui} className="card-img-top" alt="icon for ui" />
               <div className="card-body">
                 <p className="card-text">
                   UI design is very important for the success of any product; it
@@ -42,7 +42,7 @@ const Skills = ()=> {
               <img
                 src={FE}
                 className="card-img-top"
-                alt=""
+                alt="icon for front end development"
               />
               <div className="card-body">
                 <p className="card-text">

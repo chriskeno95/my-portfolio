@@ -1,13 +1,13 @@
 
-import { BrowserRouter as Router, HashRouter, Route, Routes } from 'react-router-dom';
-import { NavHashLink } from 'react-router-hash-link';
+import { BrowserRouter as HashRouter } from 'react-router-dom';
+
 import Header from './components/Header';
 import Intro from './components/intro';
 import Skills from './pages/Skills'
 import Contact from './pages/Contact'
 import Project from './pages/Project'
 import About from './pages/about-me';
-
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
     <Project/>
     <About/>
     <Contact/>
+    <Footer/>
     </div>
   );
 }

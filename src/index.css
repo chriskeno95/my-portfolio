@@ -195,12 +195,12 @@ body {
   background-color: var(--primary-colour);
 }
 
-.footer-link {
+.footer-a {
   color: var(--secondary-colour);
   text-decoration: none;
 }
 
-.footer-link:hover {
+.footer-a:hover {
   color: var(--tertiary-colour);
 }
 

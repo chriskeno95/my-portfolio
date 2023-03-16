@@ -2,7 +2,7 @@ import image from "../images/coming-soon.webp"
 
 const Project = ()=> {
 
-    return <div>
+    return (<div>
         <section className="p-4 mt-4 work" id="work">
       <div className="container-fluid">
         <h1 className="text-light text-center pb-5">Work</h1>
@@ -12,7 +12,7 @@ const Project = ()=> {
               <img
                 src={image}
                 className="portfolio-img"
-                alt=""
+                alt="placeholder"
               />
               <div className="card-body">
                 <h5 className="card-title">Project 1</h5>
@@ -30,7 +30,7 @@ const Project = ()=> {
               <img
                 src={image}
                 className="portfolio-img"
-                alt=""
+                alt="placeholder"
               />
               <div className="card-body">
                 <h5 className="card-title">Project 2</h5>
@@ -50,7 +50,7 @@ const Project = ()=> {
               <img
                 src={image}
                 className="portfolio-img"
-                alt=""
+                alt="placeholder"
               />
               <div className="card-body">
                 <h5 className="card-title">Project 3</h5>
@@ -68,7 +68,7 @@ const Project = ()=> {
               <img
                 src={image}
                 className="portfolio-img"
-                alt=""
+                alt="placeholder"
               />
               <div className="card-body">
                 <h5 className="card-title">Project 4</h5>
@@ -88,7 +88,7 @@ const Project = ()=> {
               <img
                 src={image}
                 className="portfolio-img"
-                alt=""
+                alt="placeholder"
               />
               <div className="card-body">
                 <h5 className="card-title">Project 5</h5>
@@ -106,7 +106,7 @@ const Project = ()=> {
               <img
                 src={image}
                 className="portfolio-img"
-                alt=""
+                alt="placeholder"
               />
               <div className="card-body">
                 <h5 className="card-title">Project 6</h5>
@@ -123,7 +123,7 @@ const Project = ()=> {
       </div>
     </section>
     </div>
-
+);
 }
 
 export default Project;
