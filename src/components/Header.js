@@ -12,7 +12,7 @@
         <HashLink smooth to="/#home" className="navbar-brand"
           ><img src={logo} height="40px"
         /></HashLink>
-        <button
+        <button class="d-md-none"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navmenu"

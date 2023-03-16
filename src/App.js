@@ -3,7 +3,7 @@ import { BrowserRouter as Router, HashRouter, Route, Routes } from 'react-router
 import { NavHashLink } from 'react-router-hash-link';
 import Header from './components/Header';
 import Intro from './components/intro';
-import Home from './pages/Home'
+import Skills from './pages/Skills'
 import Contact from './pages/Contact'
 import Project from './pages/Project'
 import About from './pages/about-me';
@@ -15,7 +15,10 @@ function App() {
         <Header/>
     </HashRouter>
     <Intro/>
+    <Skills/>
+    <Project/>
     <About/>
+    <Contact/>
     </div>
   );
 }

@@ -139,6 +139,7 @@ body {
   background-color: var(--secondary-colour);
   padding-top: 2em;
   color: var(--secondary-colour);
+  
 
 }
 
@@ -163,6 +164,7 @@ body {
 
 .card {
   background-color: var(--primary-colour);
+  border: none;
 }
 
 .card-title {
@@ -179,6 +181,9 @@ body {
 
 .submit-btn {
   background-color: var(--primary-colour);
+  border-radius: 10px;
+  color: white;
+  border: none;
 }
 
 .submit-btn:hover {
